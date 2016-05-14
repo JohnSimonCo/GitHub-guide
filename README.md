@@ -1,13 +1,16 @@
 # GitHub Guide
 
 ## Introduktion
+John
 Vad är github
 
 ## Installation
+~Simon
 ### Skapa konto
 ### Installera klienten
 
 ## Ditt första projekt
+~John
 ### Skapa projektet
 ### Spara ändringar
 Kommita
@@ -15,8 +18,10 @@ Kommita
 Synca
 Hur push och sync funkar
 ### Lägg till medarbetare
+~John
 Lägg till contribs.
 ### Gå med i någon annans projekt
+~Simon
 Klona ett repo
 
 ## Avancerat
