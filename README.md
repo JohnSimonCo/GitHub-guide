@@ -7,9 +7,9 @@ Fördelen med GitHub, utom att man kan dela kod med andra, är att alla projekt 
 
 ## Installation
 ### Skapa konto
-För att använda GitHub måste man först skapa ett konto. Du kan registrera dig på (GitHubs hemsida)[https://github.com/join].
+För att använda GitHub måste man först skapa ett konto. Du kan registrera dig på [GitHubs hemsida](https://github.com/join).
 ### Installera klienten
-Nästa steg är att installera klienten för GitHub. Den finns både för Windows och OSX och går att ladda ner (här)[https://desktop.github.com/].
+Nästa steg är att installera klienten för GitHub. Den finns både för Windows och OSX och går att ladda ner [här](https://desktop.github.com/).
 
 När den är installerad måste du logga in med kontot du skapade. För att göra det gå in på kugghjulsmeny -> Options -> Add account -> Log in som visat på bilderna nedan.
 
