@@ -71,20 +71,16 @@ Om flera personer har ändrat i samma fil kan det ibland bli konflikter. Detta s
 -- Bild på konflikt, exempelvis från Google
 
 ### Manuell commit AKA hacka i shellen 
-Ibland kan man få ett felmedellande när man försöka commita eller synka. Oftast fungerar det att starta om GitHub annars måste man commita manuellt genom shellen. Öppna den först genom att klicka på "Open in Git Shell" i kugghjulsmenyn. Skriv sedan
+Ibland kan man få ett felmedellande när man försöka commita eller synka. Oftast fungerar det att starta om GitHub annars måste man commita manuellt genom shellen. Öppna den först genom att klicka på "Open in Git Shell" i kugghjulsmenyn, den kan ta lite tid på sig att starta. Skriv sedan
 ```sh
-$ npm install
+$ git pull
 ```
-Detta lägger till alla ändringar
-
-Kommita genom shellen
-### Ignorera vissa filer
-Gitignore
-
-Länk: [Node.js website](https://nodejs.org/en/download/).
-Inline kod: `git clone`
-Shellhack:
+Tryck sedan enter; dollartecknet ska inte vara med utan visar bara att det är ett kommando. Detta kommer att hämta ändringar från GitHub så att projektet är i synk. Lägg sedan till en commit genom att exekuera kommandot 
 ```sh
-$ npm install
+$ git commit -am "namn på commit"
 ```
-Länka till fil: [LICENCE](https://github.com/johnrapp/novasoftware-schedule-parser/blob/master/LICENSE)
+Slutligen måste ändringarna laddas upp genom att köra
+```sh
+$ git push
+```
+Nu borde det fungera att använda GitHub-klienten igen (i värsta fall kan du behöva starta om programmet). Det här är även det sättet man använder GitHub om man är en riktig hacker.
