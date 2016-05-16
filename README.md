@@ -19,16 +19,17 @@ När den är installerad måste du logga in med kontot du skapade. För att gör
 
 ## Ditt första projekt
 ### Skapa projektet
-För att göra ett nytt projekt klickar du på plussymbolen i det övre vänstra hörnet. Se till att du är innte på "Create" tabben. Du kan välja var du vill att projektet ska skapas; default är Documents/GitHub. Här måste du ge projektet ett namn.
+För att göra ett nytt projekt klickar du på plussymbolen i det övre vänstra hörnet. Se till att du är inne på "Create" tabben. Du kan välja var du vill att projektet ska skapas; default är Documents/GitHub. Här måste du ge projektet ett namn.
 
 ![Create](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/create.PNG)
 
 Nästa steg är att publicera projektet på GitHub. Detta gör du genom att trycka på publish knappen i övre högra hörnet.
 
-Du kan nu hitta projektet på https://github.com/[ditt användarnamn]/[namnet på projektet], till exempel [https://github.com/johnrapp/schedule-parser](https://github.com/johnrapp/schedule-parser).
-
 ![Publish](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/publish.PNG)
 ![Publish more](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/publish_more.PNG)
+
+Du kan nu hitta projektet på https://github.com/[ditt användarnamn]/[namnet på projektet], till exempel [https://github.com/johnrapp/schedule-parser](https://github.com/johnrapp/schedule-parser).
+
 
 Om du redan har skrivit kod för ett projekt kan du lägga in de i den nya mappen som skapats.
 
@@ -47,7 +48,7 @@ När du synkar laddar du samtidigt ner ändringar som andra gjort på projektet.
 ### Lägg till medarbetare
 För att lägga till medarbetare måste man gå in på GitHubs hemsida. Navigera till projektet, antingen genom att skriva det direkt i URLen (se ovan), genom att gå via din profil eller genom att trycka på "View on GitHub" under kugghjulsmenyn.
 
-Gå sedan in på projektinställningarna och skrolla ner till rubriken "Collaborators". Här kan du skriva in GitHub-användarnamnet på personen du vill lägga till och sedan trycka på lägg till.
+Gå sedan in på projektinställningarna och gå tryck på "Collaborators" i sidomenyn. Här kan du skriva in GitHub-användarnamnet på personen du vill lägga till och sedan trycka på lägg till.
 
 ![Collabarator](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/collabarator.PNG)
 
@@ -75,11 +76,11 @@ Ibland kan man få ett felmedellande när man försöka commita eller synka. Oft
 ```sh
 $ git pull
 ```
-Tryck sedan enter; dollartecknet ska inte vara med utan visar bara att det är ett kommando. Detta kommer att hämta ändringar från GitHub så att projektet är i synk. Lägg sedan till en commit genom att exekuera kommandot 
+Tryck sedan enter; dollartecknet ska inte vara med utan visar bara att det är ett kommando. Detta kommer att hämta ändringar från GitHub så att projektet är i synk. Lägg sedan till en commit genom att exekvera kommandot 
 ```sh
 $ git commit -am "namn på commit"
 ```
-Slutligen måste ändringarna laddas upp genom att köra
+Slutligen måste ändringarna laddas upp genom att exekvera
 ```sh
 $ git push
 ```
