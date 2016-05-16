@@ -1,8 +1,5 @@
 # GitHub Guide
 
-TODO dricka cava och göra den här rolig
-TODO vore skitkul om en av bilderna är på Simme som klickar på knappen
-
 ## Introduktion
 GitHub är en gratis plattform för att hantera delade kodbaser som kan användas för allt från [hobbyprojekt](https://github.com/JohnSimonCo/schedule-viewer) (och [skolprojekt](https://github.com/SweSnow/Projectile-Motion)) till [stora företags projekt](https://github.com/angular/angular.js). 
 
@@ -18,7 +15,7 @@ När den är installerad måste du logga in med kontot du skapade. För att gör
 
 ![Options](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/options.PNG)
 ![Add account](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/add_account.PNG)
-![Log in](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/log_in.PNG)
+![Log in](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/login.PNG)
 
 ## Ditt första projekt
 ### Skapa projektet
@@ -57,7 +54,7 @@ Gå sedan in på projektinställningarna och skrolla ner till rubriken "Collabor
 ### Ladda ner projekt från GitHub
 För att ladda ner ett projekt som du skapat själv eller som någon annan lagt till dig på måste du gå in på projektet på GitHubs hemsida. Klicka på sparaknappen, se bilden
 
--- Bild på kille som klickar på clone-knapp
+![Collabarator](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/clone.PNG)
 
 Om du själv äger projektet kan du även lägga till det genom att klicka på plusknappen och välja "clone". Välj sedan projektet i listan och klicka på clone.
 
