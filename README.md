@@ -16,34 +16,34 @@ Nästa steg är att installera klienten för GitHub. Den finns både för Window
 
 När den är installerad måste du logga in med kontot du skapade. För att göra det gå in på kugghjulsmeny -> Options -> Add account -> Log in som visat på bilderna nedan.
 
-![Options](https://octodex.github.com/images/yaktocat.png)
-![Add account](https://octodex.github.com/images/yaktocat.png)
-![Log in](https://octodex.github.com/images/yaktocat.png)
+![Options](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/options.PNG)
+![Add account](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/add_account.PNG)
+![Log in](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/log_in.PNG)
 
 ## Ditt första projekt
 ### Skapa projektet
 För att göra ett nytt projekt klickar du på plussymbolen i det övre vänstra hörnet. Se till att du är innte på "Create" tabben. Du kan välja var du vill att projektet ska skapas; default är Documents/GitHub. Här måste du ge projektet ett namn.
 
-![Create](https://octodex.github.com/images/yaktocat.png)
+![Create](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/create.PNG)
 
 Nästa steg är att publicera projektet på GitHub. Detta gör du genom att trycka på publish knappen i övre högra hörnet.
 
 Du kan nu hitta projektet på https://github.com/[ditt användarnamn]/[namnet på projektet], till exempel [https://github.com/johnrapp/schedule-parser](https://github.com/johnrapp/schedule-parser).
 
-![Publish](https://octodex.github.com/images/yaktocat.png)
-![Publish more](https://octodex.github.com/images/yaktocat.png)
+![Publish](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/publish.PNG)
+![Publish more](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/publish_more.PNG)
 
 Om du redan har skrivit kod för ett projekt kan du lägga in de i den nya mappen som skapats.
 
 ### Spara ändringar
 När du har gjort ändringar till din kod och vill spara dem i GitHub måste du göra en commit. Börja med att skriva vad du gjort sedan förra commiten i textrutan, till exempel "Gjorde så att gubben kunde hoppa" eller "Gjorde about-sidan responsive".
 
-![Commit](https://octodex.github.com/images/yaktocat.png)
+![Commit](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/commit.PNG)
 
 ### Ladda upp ändringar
 Eftersom commits bara sparas lokalt på din dator måste du ladda upp dem för att andra ska kunna se dem. Detta gör du genom att trycka på synkknappen i det övre högra hörnet.
 
-![Sync](https://octodex.github.com/images/yaktocat.png)
+![Sync](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/sync.PNG)
 
 När du synkar laddar du samtidigt ner ändringar som andra gjort på projektet. Om man jobbar fler på samma projekt är det smart att synka ofta, speciellt om man jobbar i samma fil, så att alla utgår från samma kod. Att synka kan ta ett tag och ibland måste man trycka flera gånger. I värsta fall, om du ändrat på samma fil, på samma ställe, som någon annan på projektet, kan det bli en konflikt. Mer om detta kan du läsa i Avancerat.
 
@@ -52,7 +52,7 @@ För att lägga till medarbetare måste man gå in på GitHubs hemsida. Navigera
 
 Gå sedan in på projektinställningarna och skrolla ner till rubriken "Collaborators". Här kan du skriva in GitHub-användarnamnet på personen du vill lägga till och sedan trycka på lägg till.
 
-![Collabarator](https://octodex.github.com/images/yaktocat.png)
+![Collabarator](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/collabarator.PNG)
 
 ### Ladda ner projekt från GitHub
 För att ladda ner ett projekt som du skapat själv eller som någon annan lagt till dig på måste du gå in på projektet på GitHubs hemsida. Klicka på sparaknappen, se bilden
