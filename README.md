@@ -15,6 +15,7 @@ När den är installerad måste du logga in med kontot du skapade. För att gör
 
 ![Options](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/options.PNG)
 ![Add account](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/add_account.PNG)
+---
 ![Log in](https://github.com/JohnSimonCo/GitHub-guide/blob/master/images/login.PNG)
 
 ## Ditt första projekt
@@ -67,12 +68,12 @@ Om du gjort ändringar som du ångrar eller som du inte vill inkludera i en comm
 Om du vill ångra en commit kan du högerklicka på den och klicka på "Revert" i detaljskärmen. Detta kommer skapa en ny commit som tar bort alla ändringar i den valda commiten. 
 
 ### Hantera filkonflikter
-Om flera personer har ändrat i samma fil kan det ibland bli konflikter. Detta syns genom att filen visas i orange i listan över filer. GitHub ger en fil med bådas ändringar tillsammans. Du måste fixa konflikten manuellt genom att gå in i filen och välja vilka ändringar du vill ha kvar.
+Om flera personer har ändrat i samma fil kan det ibland bli konflikter. Detta syns genom att filen visas i orange i listan över filer. GitHub ger en fil med bådas ändringar tillsammans. Du måste fixa konflikten manuellt genom att gå in i filen och välja vilka ändringar du vill ha kvar. Nedan är en bild på hur det kan se ut om det blivit en konflikt. Om t.ex originaländringarna är de rätta måste du ta bort den andra ändringen och all extratext som GitHub lagt till.
 
 ![Conflict file](https://github-images.s3.amazonaws.com/enterprise/11.10.340/user/assets/images/mac/changes/merge_conflict_sample.png)
 
 ### Manuell commit AKA hacka i shellen 
-Ibland kan man få ett felmedellande när man försöka commita eller synka. Oftast fungerar det att starta om GitHub annars måste man commita manuellt genom shellen. Öppna den först genom att klicka på "Open in Git Shell" i kugghjulsmenyn, den kan ta lite tid på sig att starta. Skriv sedan
+Ibland kan man få ett felmedellande när man försöker commita eller synka. Oftast fungerar det att starta om GitHub annars måste man commita manuellt genom shellen. Öppna den först genom att klicka på "Open in Git Shell" i kugghjulsmenyn, den kan ta lite tid på sig att starta. Skriv sedan
 ```sh
 $ git pull
 ```
